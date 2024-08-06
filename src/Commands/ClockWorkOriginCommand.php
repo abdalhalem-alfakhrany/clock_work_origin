@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Abdalhalemalfakhrany\ClockWorkOrigin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ClockWorkOriginCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'clock-work-origin';
 
     public $description = 'My command';
 

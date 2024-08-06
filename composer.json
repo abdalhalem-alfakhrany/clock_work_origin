@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "abdalhalem-alfakhrany/clock-work-origin",
+    "description": "This is my package clock-work-origin",
     "keywords": [
-        ":vendor_name",
+        "abdalhalem-alfakhrany",
         "laravel",
-        ":package_slug"
+        "clock-work-origin"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/abdalhalem-alfakhrany/clock-work-origin",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/abdalhalem-alfakhrany/clock-work-origin/issues",
+        "source": "https://github.com/abdalhalem-alfakhrany/clock-work-origin"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abdalhalem",
+            "email": "abdalhalem.hosni.alfakhrany@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -41,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Abdalhalemalfakhrany\\ClockWorkOrigin\\": "src/",
+            "Abdalhalemalfakhrany\\ClockWorkOrigin\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Abdalhalemalfakhrany\\ClockWorkOrigin\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Abdalhalemalfakhrany\\ClockWorkOrigin\\ClockWorkOriginServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ClockWorkOrigin": "Abdalhalemalfakhrany\\ClockWorkOrigin\\Facades\\ClockWorkOrigin"
             }
         }
     },

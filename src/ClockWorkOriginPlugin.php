@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Abdalhalemalfakhrany\ClockWorkOrigin;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class ClockWorkOriginPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'clock-work-origin';
     }
 
     public function register(Panel $panel): void
