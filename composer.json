@@ -40,7 +40,6 @@
     "autoload": {
         "psr-4": {
             "Abdalhalemalfakhrany\\ClockWorkOrigin\\": "src/",
-            "Abdalhalemalfakhrany\\ClockWorkOrigin\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
@@ -67,9 +66,6 @@
             "providers": [
                 "Abdalhalemalfakhrany\\ClockWorkOrigin\\ClockWorkOriginServiceProvider"
             ],
-            "aliases": {
-                "ClockWorkOrigin": "Abdalhalemalfakhrany\\ClockWorkOrigin\\Facades\\ClockWorkOrigin"
-            }
         }
     },
     "minimum-stability": "dev",

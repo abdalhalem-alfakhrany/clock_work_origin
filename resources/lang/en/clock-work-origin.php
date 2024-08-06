@@ -1,6 +1,5 @@
 <?php
-
-// translations for Abdalhalemalfakhrany/ClockWorkOrigin
 return [
-    //
+    'title' => 'Clock Widget',
+    'description' => 'Your current time is:',
 ];
