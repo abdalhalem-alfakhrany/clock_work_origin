@@ -39,7 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Abdalhalemalfakhrany\\ClockWorkOrigin\\": "src/",
+            "Abdalhalemalfakhrany\\ClockWorkOrigin\\": "src/"
         }
     },
     "autoload-dev": {
@@ -65,7 +65,7 @@
         "laravel": {
             "providers": [
                 "Abdalhalemalfakhrany\\ClockWorkOrigin\\ClockWorkOriginServiceProvider"
-            ],
+            ]
         }
     },
     "minimum-stability": "dev",
