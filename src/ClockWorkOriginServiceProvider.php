@@ -2,6 +2,8 @@
 
 namespace Abdalhalemalfakhrany\ClockWorkOrigin;
 
+use Abdalhalemalfakhrany\ClockWorkOrigin\Commands\ClockWorkOriginCommand;
+use Abdalhalemalfakhrany\ClockWorkOrigin\Testing\TestsClockWorkOrigin;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -14,8 +16,6 @@ use Livewire\Livewire;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Abdalhalemalfakhrany\ClockWorkOrigin\Commands\ClockWorkOriginCommand;
-use Abdalhalemalfakhrany\ClockWorkOrigin\Testing\TestsClockWorkOrigin;
 
 class ClockWorkOriginServiceProvider extends PackageServiceProvider
 {
